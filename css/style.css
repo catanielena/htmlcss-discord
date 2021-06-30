@@ -10,3 +10,170 @@
 body{
     font-family: 'Lato', sans-serif;
 }
+
+.container{
+    width: 70%;
+    margin: auto;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* typo */
+h1{
+    font-size: 50px;
+    margin: 30px 0;
+    font-weight: 900;
+}
+
+p{
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 700;
+}
+/* text-color */
+.text-white{
+    color: white;
+}
+
+.text-dark{
+    color: #23272a;
+}
+
+.text-light-blue{
+    color: #7289da;
+}
+
+/* button */
+button{
+    border-style: none;
+    border-width: 0; 
+    border-radius: 50px;
+    box-shadow: 2px 3px 8px rgba(35, 39, 42, 0.2);
+}
+
+.small-button{
+    padding: 10px;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.big-button{
+    padding: 15px 20px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+button.bg-white{
+    background-color: white;
+    color: #23272a;
+}
+
+button.bg-blue{
+    background-color: #23272a;
+    color: white;
+}
+
+button .icon{
+    margin-right: 10px;
+}
+
+button.bg-white:hover{
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+button.bg-blue:hover{
+    background-color: rgba(35, 39, 42, 0.7);
+}
+
+/* header */
+header{
+    /* padding: 10px 0; */
+    background-color: #3161e0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.logo, .main-nav, .login{
+    float: left;
+    height: 70px;
+    position: relative;
+}
+
+.main-nav{
+    width: 70%;
+    text-align: center;
+}
+
+.logo, .login{
+    width: 15%;
+}
+
+.main-nav, .main-nav ul, .main-nav li, .main-nav li a{
+    display: inline-block;
+}
+
+.main-nav li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    padding: 20px;
+    vertical-align: middle;
+}
+
+.logo img, .login button{
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.login button{
+    right: 0;
+}
+
+.main-nav li a:hover{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* main */
+/* hero */
+.hero{
+    position: relative;
+    text-align: center;
+}
+
+.hero img{
+    object-fit: cover;
+    object-position: center;
+    height: 80vh;
+    width: 100%;
+}
+
+.hero .container .centered{
+    width: 50%;
+}
+
+.hero p{
+    margin: 20px 0;
+}
+
+.hero .buttons button{
+    margin: 0 10px;
+}
+
+
+
