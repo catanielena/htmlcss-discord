@@ -48,6 +48,12 @@ h2{
     font-size: 45px;
     font-weight: 900;
 }
+
+h4{
+    font-size: 22px;
+    font-weight: 900;
+    margin: 10px 0;
+}
 /* text-color */
 .text-white{
     color: white;
@@ -88,6 +94,11 @@ button.bg-white{
 
 button.bg-blue{
     background-color: #23272a;
+    color: white;
+}
+
+button.light-blue{
+    background-color: #7289da;
     color: white;
 }
 
@@ -202,4 +213,8 @@ section:not(.hero){
 
 section .row{
     text-align: center;
+}
+
+section .row-text{
+    position: relative;    
 }
