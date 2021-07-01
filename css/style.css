@@ -32,7 +32,7 @@ body{
 
 /* typo */
 h1{
-    font-size: 50px;
+    font-size: 60px;
     margin: 30px 0;
     font-weight: 900;
 }
@@ -41,6 +41,12 @@ p{
     font-size: 18px;
     line-height: 30px;
     font-weight: 700;
+    margin: 20px 0;
+}
+
+h2{
+    font-size: 45px;
+    font-weight: 900;
 }
 /* text-color */
 .text-white{
@@ -167,13 +173,33 @@ header{
     width: 50%;
 }
 
-.hero p{
-    margin: 20px 0;
-}
-
 .hero .buttons button{
     margin: 0 10px;
 }
 
 
 
+section:not(.hero){
+    margin: 200px auto;
+}
+
+.col-text, .col-img{
+    float: left;
+}
+
+.col-text{
+    width: 30%;
+    padding-top: 30px;
+}
+
+.col-img{
+    width: 70%;
+}
+
+#why .col-img{
+    text-align: right;
+}
+
+section .row{
+    text-align: center;
+}
